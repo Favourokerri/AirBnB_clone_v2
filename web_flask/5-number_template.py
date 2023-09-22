@@ -37,6 +37,7 @@ def imanumber(n):
     """displays “n is a number” only if n is an integer"""
     return "{:d} is a number".format(n)
 
+
 @app.route('/number_template/<int:n>', strict_slashes=False)
 def im_anumber(n):
     """displays “n is a number” only if n is an integer"""
